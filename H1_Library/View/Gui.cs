@@ -62,7 +62,7 @@ namespace H1_Library.View
         public void ShowLoanedBooks(List<string> loanedBookList)
         {
             Console.Clear();
-            Console.WriteLine("\nDu har lige lånt bøgerne:");
+            Console.WriteLine("Du har lige lånt bøgerne:");
             for (int i = 0; i < loanedBookList.Count; i++)
             {
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
